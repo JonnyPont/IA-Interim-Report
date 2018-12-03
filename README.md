@@ -13,3 +13,6 @@ This repository contains two arpeggiator scripts:
     
     
 Both arpeggiators have tempo, beat sub-divisions and note shape as inputs. These are standard sequencer controls.
+
+In both cases the file beginning with "state_of_the_arp..." is the main file.
+The markov chain file will produce chord change sequences and send them to the audio output of the device when run. 
